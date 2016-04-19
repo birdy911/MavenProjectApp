@@ -1,5 +1,5 @@
 #!/bin/sh
-cd $(dirname $0)
+cd $complete
 
 if [ ! -d "$ANDROID_HOME" ]; then
     echo "ANDROID_HOME is not available"
